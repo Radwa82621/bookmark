@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: large;
+    font-family: arial;
+}
+h1{
+    color: #aaa;
+}
+.header,.main{
+    border-bottom: 1px solid #999;
+}
+.content{
+    background-color: #eee;
+}
+.out{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form-control:focus{
+    border:2px solid rgba(0,0,0,0.7);
+    box-shadow: none;
+
+}
